@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>User Login</title>
+  <meta charset="utf-8">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+  <meta name="author" content="Satyawant_Kumar Josy_Sebastian Reuben_Johns">
+  <link rel="stylesheet" href="design.css">
+</head>
+<body class="body_background">
+<div class="sidenav">
+  <a href="home.htm">Home</a>
+  <a href="contact.htm">Contact</a>
+  <a href="services.htm">Services</a>
+  <a href="about.htm">About</a> 
+</div>
+
+<div class="content">
+  <h2 class="heading">Welcome to KNU Pay</h2><br>
+  <div class="div_1">
+  <form action="login.cgi" method="post">
+  <hr>
+  <label for="user_name"><b>User Name</b></label>
+  <input type="text" name="user_name" id="user_name" placeholder="Enter your user name" required/>
+  <label for="password"><b>Password</b></label>
+  <input type="password" name="pass" id="pass" placeholder="Enter your Password" required/>
+  <input type="submit" value="Login">
+  <input type="reset" value="Reset">
+  </form>
+  </div>
+  
+  <p><a href="register.htm">New User ? Register here/Activate</a></p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Wallet Recharge</title>
+  <meta charset="utf-8">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+  <meta name="author" content="Satyawant_Kumar Josy_Sebastian Reuben_Johns">
+  <link rel="stylesheet" href="design.css">
+</head>
+<body class="body_background">
+<div class="sidenav">
+  <a href="home.htm">Home</a>
+  <a href="contact.htm">Contact</a>
+  <a href="services.htm">Services</a>
+  <a href="about.htm">About</a> 
+</div>
+
+<div class="content">
+		<h2 class="heading">Welcome to KNU Pay</h2><br>
+		<div class="div_1">
+			<form action="adm_trans_handler.cgi" method="post">
+			<hr>
+			<label for="cust_account_no"><b>Receiver's Account NO</b></label>
+			<input type="number" name="cust_account_no" id="cust_account_no" placeholder="Enter receiver's account no.." required/>
+			<label for="amount"><b>Amount in Dollar</b></label>
+			<input type="number" name="amount" id="amount" placeholder="Enter the amount.." required/>
+			
+			<label for="deposit"><b>Deposit</b></label>
+			<input type="radio" name="trans_type" id="deposit" value="deposit" required/>
+			
+			<label for="withdraw"><b>Withdraw</b></label>
+			<input type="radio" name="trans_type" id="withdraw" value="withdraw" required/>
+			
+			<input type="submit" value="Submit">
+			<input type="reset" value="Reset">
+			</form>
+		</div>
+</div>
+
+</body>
+</html>

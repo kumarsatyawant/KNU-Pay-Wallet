@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>New Account</title>
+  <meta charset="utf-8">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+  <meta name="author" content="Satyawant_Kumar Josy_Sebastian Reuben_Johns">
+  <link rel="stylesheet" href="design.css">
+</head>
+<body class="body_background">
+<div class="sidenav">
+  <a href="home.htm">Home</a>
+  <a href="contact.htm">Contact</a>
+  <a href="services.htm">Services</a>
+  <a href="about.htm">About</a> 
+</div>
+
+<div class="content">
+  <h2 class="heading">Welcome to KNU Pay</h2><br>
+  <div class="div_1">
+  <form action="register.cgi" method="post">
+  <hr>
+  <label for="account_no"><b>Account No</b></label>
+  <input type="number" name="account_no" id="account_no" min="0" placeholder="Account No" required/>
+  <label for="fname"><b>First Name</b></label>
+  <input type="text" name="fname" id="fname" placeholder="Your name..." required/>
+  <label for="lname"><b>Last Name</b></label>
+  <input type="text" name="lname" id="lname" placeholder="Your lastname..." required/>
+  <label for="user_name"><b>User Name</b></label>
+  <input type="text" name="user_name" id="user_name" placeholder="User name" required/>
+  <label for="password"><b>Password</b></label>
+  <input type="password" name="pass" id="pass" placeholder="Password" required/>
+  <label for="Cifmpassword"><b>Confirm Password</b></label>
+  <input type="password" name="Cifmpassword" id="Cifmpassword" placeholder="Confirm Password" required/>
+  <label for="email"><b>Email</b></label>
+  <input type="email" name="email" id="email" placeholder="Your email" required/>
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+  </form>
+  </div>
+  
+  <p><a href="login.htm">Already registered ? Login</a></p>
+  
+  <!--<img src="banking.jpg" alt="Bnaking">-->
+</div>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact</title>
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+<meta name="author" content="Satyawant_Kumar Josy_Sebastian Reuben_Johns">
+<link rel="stylesheet" href="design.css">
+<link rel="stylesheet" href="design1.css">
+</head>
+<body class="body_background">
+<div class="sidenav">
+  <a href="home.htm">Home</a>
+  <a href="contact.htm">Contact</a>
+  <a href="services.htm">Services</a>
+  <a href="about.htm">About</a> 
+</div>
+
+<div class="content">
+	<h2 class="heading">Welcome to KNU Pay</h2><br>
+	<div class="div_1">
+		<h3>Contact Form</h3>
+		<form action="contact.cgi" method="post">
+			<hr>
+			<label for="fname"><b>First Name</b></label>
+			<input type="text" id="fname" name="firstname" placeholder="Your name.." required/>
+
+			<label for="lname"><b>Last Name</b></label>
+			<input type="text" id="lname" name="lastname" placeholder="Your last name.." required/>
+			
+			<label for="email"><b>Email</b></label>
+			<input type="email" name="email" id="email" placeholder="Your email" required/>
+
+			<label for="department"><b>Department</b></label>		
+			<select id="department" name="department" required/>
+				<option value="">None</option>
+				<option value="enginnering">Engineering</option>
+				<option value="teaching">Teaching</option>
+				<option value="library">Library</option>
+			</select>
+
+			<label for="subject"><b>Subject</b></label><br>
+			<textarea id="subject" name="subject" placeholder="Write something.." rows="4" cols="80" required/></textarea><br>
+
+			<input type="submit" value="Submit">
+			<input type="reset" value="Reset">
+		</form>
+	</div>
+</div>
+
+</body>
+</html>
