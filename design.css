@@ -101,7 +101,7 @@ input[type=reset]:hover {
 	border-radius: 20px;
 	padding: 50px;
 	margin: 20px;
-	background-size: 800px 400px;
+	background-size: 800px 450px;
 	background-repeat: no-repeat;
 }
 
@@ -153,8 +153,27 @@ input[type=reset]:hover {
 	color: white;
 }
 
+.button4 {
+	background-color: #BA55D3;
+	border-radius: 5px;
+	font-size: 12px;
+	margin: 2px 1px;
+	margin-left: 150;
+	padding: 10px;
+	text-align: center;
+}
+
+.button4:hover {
+	background-color: #9370DB;
+	color: white;
+}
+
 .right {
 	text-align: right;
+}
+
+.cent {
+	text-align: center;
 }
 
 .login_body {
